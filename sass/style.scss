@@ -1,25 +1,63 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i);
 
-$fonts: 'Open Sans', sans-serif;
-$background: lightgreen;
+$font: 'Open Sans', sans-serif;
+$primary: #fff;
+$background: #55ACEC;
+$hover: rgba(0, 0, 0, 0.5);
 
 * {
 	box-sizing: border-box;
 }
 body {
 	margin: 0;
-	font-family: $fonts;
-}
-.container {
-	width: 100%;
-	max-width: 1200px;
-	height: 100vh;
-	margin: 0 auto;
+	padding: 0 10px;
+	font-family: 'Open Sans', sans-serif;
+	color: $primary;
 	background-color: $background;
-	text-align: center;
-	padding: 30px 15px 15px;
 }
-.test {
-	display: flex;
-	flex-wrap: wrap;
+main {
+	width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+h1 {
+	font-size: 45px;
+	font-weight: 400;
+	margin-top: 50px
+}
+.box {
+	margin: 100px 0;	
+
+	h2 {
+		font-size: 30px;
+		font-weight: 400;
+	}
+	h3 {
+		font-size: 25px;
+		font-weight: 400;
+	}
+}
+button, a {
+	color: $primary;
+	background-color: $background;
+	border: 1px solid;
+	outline: none;
+	font-size: 20px;
+	width: 100%;
+	max-width: 500px;
+	height: 45px;	
+	display: block;
+	margin: 0 auto;
+	transition: .3s;
+
+	&:hover {
+		background-color: $hover;
+		cursor: pointer;
+	}
+}
+a {
+	text-decoration: none;
+	line-height: 45px;
+	margin-top: 45px;
 }

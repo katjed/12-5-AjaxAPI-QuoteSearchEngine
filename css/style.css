@@ -1,8 +1,20 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i);
 * { box-sizing: border-box; }
 
-body { margin: 0; font-family: "Open Sans", sans-serif; }
+body { margin: 0; padding: 0 10px; font-family: 'Open Sans', sans-serif; color: #fff; background-color: #55ACEC; }
 
-.container { width: 100%; max-width: 1200px; height: 100vh; margin: 0 auto; background-color: lightgreen; text-align: center; padding: 30px 15px 15px; }
+main { width: 100%; max-width: 1200px; margin: 0 auto; text-align: center; }
 
-.test { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; }
+h1 { font-size: 45px; font-weight: 400; margin-top: 50px; }
+
+.box { margin: 100px 0; }
+
+.box h2 { font-size: 30px; font-weight: 400; }
+
+.box h3 { font-size: 25px; font-weight: 400; }
+
+button, a { color: #fff; background-color: #55ACEC; border: 1px solid; outline: none; font-size: 20px; width: 100%; max-width: 500px; height: 45px; display: block; margin: 0 auto; transition: .3s; }
+
+button:hover, a:hover { background-color: rgba(0, 0, 0, 0.5); cursor: pointer; }
+
+a { text-decoration: none; line-height: 45px; margin-top: 45px; }
