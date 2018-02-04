@@ -10,9 +10,8 @@ function getQuote() {
 }
 
 // alternative
-
 /* 
-$.ajax({
+$.ajax({  
     dataType: "json",
     url: quoteUrl,
     data: null,

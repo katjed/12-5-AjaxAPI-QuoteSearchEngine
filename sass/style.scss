@@ -10,7 +10,6 @@ $hover: rgba(0, 0, 0, 0.5);
 }
 body {
 	margin: 0;
-	padding: 0 10px;
 	font-family: 'Open Sans', sans-serif;
 	color: $primary;
 	background-color: $background;
@@ -19,6 +18,7 @@ main {
 	width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 10px;
     text-align: center;
 }
 h1 {
