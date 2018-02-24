@@ -1,65 +1,20 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i);
-* {
-  box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
-body {
-  margin: 0;
-  font-family: "Open Sans", sans-serif;
-  color: #fff;
-  background-color: #55ACEC;
-}
+body { margin: 0; font-family: "Open Sans", sans-serif; color: #fff; background-color: #55ACEC; }
 
-main {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 10px;
-  text-align: center;
-}
+main { width: 100%; max-width: 1200px; margin: 0 auto; padding: 0 10px; text-align: center; }
 
-h1 {
-  font-size: 45px;
-  font-weight: 400;
-  margin-top: 50px;
-}
+h1 { font-size: 45px; font-weight: 400; margin-top: 50px; }
 
-.box {
-  margin: 100px 0;
-}
+.box { margin: 100px 0; }
 
-.box h2 {
-  font-size: 30px;
-  font-weight: 400;
-}
+.box h2 { font-size: 30px; font-weight: 400; }
 
-.box h3 {
-  font-size: 25px;
-  font-weight: 400;
-}
+.box h3 { font-size: 25px; font-weight: 400; }
 
-button, a {
-  color: #fff;
-  background-color: #55ACEC;
-  border: 1px solid;
-  outline: none;
-  font-size: 20px;
-  width: 100%;
-  max-width: 500px;
-  height: 45px;
-  display: block;
-  margin: 0 auto;
-  transition: .3s;
-}
+button, a { color: #fff; background-color: #55ACEC; border: 1px solid; outline: none; font-size: 20px; width: 100%; max-width: 500px; height: 45px; display: block; margin: 0 auto; transition: .3s; }
 
-button:hover, a:hover {
-  background-color: rgba(0, 0, 0, 0.5);
-  cursor: pointer;
-}
+button:hover, a:hover { background-color: rgba(0, 0, 0, 0.5); cursor: pointer; }
 
-a {
-  text-decoration: none;
-  line-height: 45px;
-  margin-top: 45px;
-}
-/*# sourceMappingURL=style.css.map */
+a { text-decoration: none; line-height: 45px; margin-top: 45px; }
